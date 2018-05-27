@@ -1,0 +1,59 @@
+//
+// BASE / TYPE
+//-----------------------------------------------------------------------
+
+* + * {
+  margin-top: $space-baseline;
+}
+
+body {
+  font-family: $font-regular;
+  line-height: 1.5;
+  color: $fg-color;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+strong {
+  font-weight: bold;
+}
+
+
+// Headings
+// -------------------------
+
+h1, h2, h3 {
+  color: $strong-fg-color;
+  font-weight: bold;
+  line-height: 1.25;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+h3 {
+  font-size: 2.125rem;
+}
+
+
+// Paragraphs
+// -------------------------
+
+p {
+  font-size: 1.625rem;
+}
+
+
+// Links
+// -------------------------
+
+a {
+  font-weight: bold;
+  color: $interactive-fg-color;
+  text-decoration: none;
+
+  &:hover, &:focus {
+    text-decoration: underline;
+  }
+}

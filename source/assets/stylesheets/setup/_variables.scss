@@ -1,0 +1,46 @@
+//
+// SETUP / VARIABLES
+//-----------------------------------------------------------------------
+
+// Colors
+// -------------------------
+
+$black:                     #152845;
+$white:                     #fff;
+$gray:                      #576479;
+$gray-light:                #f3f4f5;
+$gray-dark:                 #2c3d57;
+$orange:                    #ff6600;
+
+$body-bg-color:             $white;
+$fg-color:                  $gray-dark;
+$muted-fg-color:            $gray;
+$strong-fg-color:           $black;
+$interactive-fg-color:      $black;
+
+
+// Typography
+// -------------------------
+
+$font-regular:              "karmilla-web", "Helveteica Neue", Helvetica, sans-serif;
+
+
+// Vertical rythm
+// -------------------------
+
+$space-base:                1rem;
+
+$space-xsmall:              $space-base * 1;
+$space-small:               $space-base * 1.25;
+$space-baseline:            $space-base * 1.5;
+$space-large:               $space-base * 1.75;
+$space-xlarge:              $space-base * 2;
+$space-huge:                $space-base * 5;
+
+
+// Breakpoints
+// -------------------------
+
+$medium:                    "only screen and (min-width : 40rem)";
+$large:                     "only screen and (min-width : 65rem)";
+$xlarge:                    "only screen and (min-width : 75rem)";
