@@ -43,31 +43,51 @@
       </div>
     </div>
   </div>
-  <ul class="c-gallery" role="region" aria-label="Några av mina projekt">
-    <li class="c-gallery__item"><%= image_tag "1.png", alt: "", class: "c-gallery__image" %></li>
-    <li class="c-gallery__item"><%= image_tag "2.png", alt: "", class: "c-gallery__image" %></li>
-    <li class="c-gallery__item"><%= image_tag "3.png", alt: "", class: "c-gallery__image" %></li>
-    <li class="c-gallery__item"><%= image_tag "4.png", alt: "", class: "c-gallery__image" %></li>
-    <li class="c-gallery__item"><%= image_tag "5.png", alt: "", class: "c-gallery__image" %></li>
-    <li class="c-gallery__item"><%= image_tag "6.png", alt: "", class: "c-gallery__image" %></li>
-    <li class="c-gallery__item"><%= image_tag "7.png", alt: "", class: "c-gallery__image" %></li>
-    <li class="c-gallery__item"><%= image_tag "8.png", alt: "", class: "c-gallery__image" %></li>
+  <ul class="c-gallery">
+    <li class="c-gallery__item c-gallery__item--tall c-gallery__item--push-down">
+      <%= image_tag "gallery-lapoint@2x.png", alt: "", class: "c-gallery__image" %>
+      <div class="c-gallery__caption">
+        Lapoint (2017)
+      </div>
+    </li>
+    <li class="c-gallery__item c-gallery__item--wide c-gallery__item--push-right c-gallery__item--push-down">
+      <%= image_tag "gallery-arkivdigital@2x.png", alt: "", class: "c-gallery__image" %>
+      <div class="c-gallery__caption">
+        ArkivDigital (Varvet, 2014)
+      </div>
+    </li>
+    <li class="c-gallery__item c-gallery__item--tall c-gallery__item--push-right c-gallery__item--push-down">
+      <%= image_tag "gallery-rut@2x.png", alt: "", class: "c-gallery__image" %>
+      <div class="c-gallery__caption">
+        Bonnier Rut (Varvet, 2017)
+      </div>
+    </li>
+    <li class="c-gallery__item c-gallery__item--tall c-gallery__item--center">
+      <%= image_tag "gallery-via@2x.png", alt: "", class: "c-gallery__image" %>
+      <div class="c-gallery__caption">
+        Via (med Jon Petersson, 2018)
+      </div>
+    </li>
+    <li class="c-gallery__item c-gallery__item--tall c-gallery__item--center">
+      <%= image_tag "gallery-360@2x.png", alt: "", class: "c-gallery__image" %>
+      <div class="c-gallery__caption">
+        360° feedback (Varvet, 2016)
+      </div>
+    </li>
+    <li class="c-gallery__item c-gallery__item--wide c-gallery__item--push-right c-gallery__item--push-down">
+      <%= image_tag "gallery-battleriff@2x.png", alt: "", class: "c-gallery__image" %>
+      <div class="c-gallery__caption">
+        Battleriff (Varvet, 2016)
+      </div>
+    </li>
+    <li class="c-gallery__item c-gallery__item--push-right c-gallery__item--push-down">
+      <%= image_tag "gallery-pp@2x.png", alt: "", class: "c-gallery__image" %>
+      <div class="c-gallery__caption">
+        Praktikplatsen (Varvet, 2013)
+      </div>
+    </li>
   </ul>
   <div class="l-container">
-    <div class="l-section">
-      <div class="l-section__figure">
-        <%= svg "concept-to-code", class: "c-icon", "aria-hidden": "true" %>
-      </div>
-      <div class="l-section__body">
-        <h3>Jag rör mig från koncept till produktionsfärdig gränssnittskod.</h3>
-        <p>Jag har lika lång erfarenhet av att skriva HTML och CSS som jag har av att ta fram designkoncept. Det har alltid gått hand i hand, och jag är övertygad om att en grundlig förståelse för det digitala materialet är avgörande för att ta fram realistiska designkoncept som inte brakar ihop när verkligheten knackar på.</p>
-        <p>Jag är inte utvecklare, men genom åren har jag också rört mig i programmeringsspråk som Ruby (Ruby on Rails), Javascript (och React), PHP (och Wordpress). För det mesta har det handlat om agila projekt med testdriven utveckling.</p>
-      </div>
-    </div>
-    <div class="l-section">
-      <div class="l-section__figure">
-        <%= svg "accessibility", class: "c-icon", "aria-hidden": "true" %>
-      </div>
     <div class="c-section">
       <div class="c-section__figure">
         <%= svg "concept-to-code", class: "c-icon c-icon--concept-to-code", "aria-hidden": "true" %>
