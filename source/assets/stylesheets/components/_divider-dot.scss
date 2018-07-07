@@ -1,0 +1,29 @@
+//
+// COMPONENTS / DIVIDER DOT
+//-----------------------------------------------------------------------
+
+.c-divider-dot {
+  margin-top: $space-base;
+  margin-bottom: $space-base;
+  display: block;
+  border: 0;
+
+  &:before {
+    content: '';
+    display: inline-block;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background-color: currentColor;
+  }
+
+  @media #{$medium} {
+    margin-top: $space-base-md;
+    margin-bottom: $space-base-md;
+
+    &:before {
+      width: 10px;
+      height: 10px;
+    }
+  }
+}
