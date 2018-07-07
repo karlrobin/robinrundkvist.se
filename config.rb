@@ -18,25 +18,6 @@ activate :middleman_scavenger do |config|
   config.sprite_path = "assets/images/icon-sprite.svg"
 end
 
-# Per-page layout changes
-page '/*.xml', layout: false
-page '/*.json', layout: false
-page '/*.txt', layout: false
-
-# Helpers
-# Methods defined in the helpers block are available in templates
-# https://middlemanapp.com/basics/helper-methods/
-
-# helpers do
-#   def some_helper
-#     'Helping'
-#   end
-# end
-
-configure :development do
-  # activate :livereload
-end
-
 configure :build do
   sass = {
     :output_style => :compact,
