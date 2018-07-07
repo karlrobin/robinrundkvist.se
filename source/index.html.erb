@@ -1,24 +1,26 @@
-<div class="c-top-bar" role="banner">
-  <h1 class="c-logo">
-    <%= image_tag "rundkvist.svg", alt: "" %>
-    <span>Robin Rundkvist</span>
-  </h1>
-</div>
 <div class="l-main" role="main">
+  <div class="c-hero">
+    <div class="l-container">
+      <h1 class="c-hero__logo">
+        <%= partial "logo" %>
+        Robin Rundkvist
+      </h1>
+      <p class="c-hero__pitch">Gränssnittsdesigner baserad i Göteborg, med fokus på komponentbaserade designsystem och tillgänglighet.</p>
+      <ul class="l-inline-list u-margin-top-large">
+        <li class="l-inline-list__item" lang="en">UI-design</li>
+        <li class="l-inline-list__item">HTML & CSS</li>
+        <li class="l-inline-list__item">Tillgänglighet</li>
+        <li class="l-inline-list__item">Webbstandarder</li>
+        <li class="l-inline-list__item" lang="en">UX-design</li>
+        <li class="l-inline-list__item" lang="en">Style guides</li>
+      </ul>
+    </div>
+  </div>
   <div class="l-container">
-    <h2 class="u-h1">Gränssnittsdesigner baserad i Göteborg, med fokus på komponentbaserade designsystem och tillgänglighet.</h2>
-    <ul>
-      <li lang="en">UI-design</li>
-      <li>Gränssnittsutveckling</li>
-      <li>HTML & CSS</li>
-      <li>Tillgänglighet</li>
-      <li lang="en">UX-design</li>
-      <li>Responsiv design</li>
-      <li lang="en">Style guides</li>
-    </ul>
-    <div class="c-box">
-      <p><%= svg "exclamation", class: "c-icon", "aria-hidden": "true" %></i>Just nu är jag tillgänglig för konsultuppdrag hösten 2018.</p>
-      <a class="c-button" href="#contact">Hör av dig!</a>
+    <div class="c-notice">
+      <%= svg "exclamation", class: "c-icon c-notice__icon", "aria-hidden": "true" %>
+      <p class="u-margin-top-none"><strong>Just nu tar jag emot uppdrag för höst/vinter 2018.</strong></p>
+      <a class="c-button c-notice__action" href="#contact" id="scroll-to-contact"><%= svg "arrow-down", class: "c-icon c-icon--inline", "aria-hidden": "true" %>Hör av dig!</a>
     </div>
     <div class="l-section">
       <div class="l-section__figure">

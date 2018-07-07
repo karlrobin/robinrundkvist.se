@@ -18,6 +18,14 @@ html {
 
 body {
   background: $body-bg-color;
+
+  * + * {
+    margin-top: $space-small;
+
+    @media #{$medium} {
+      margin-top: $space-small-md;
+    }
+  }
 }
 
 img {
@@ -30,6 +38,14 @@ img {
   }
 }
 
-ul, ol {
+ul, ol, {
   list-style: none;
+}
+
+svg {
+  g,
+  path,
+  polygon {
+    fill: inherit;
+  }
 }
