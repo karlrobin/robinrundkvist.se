@@ -2,16 +2,19 @@
 // BASE / TYPE
 //-----------------------------------------------------------------------
 
-* + * {
-  margin-top: $space-baseline;
-}
-
 body {
   font-family: $font-regular;
-  line-height: 1.5;
+  font-size: $base-font-size;
+  line-height: $base-line-height;
   color: $fg-color;
+  -webkit-text-size-adjust: 100%;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+  @media #{$medium} {
+    line-height: $base-line-height-md;
+    font-size: $base-font-size-md;
+  }
 }
 
 strong {
@@ -51,7 +54,10 @@ h2 {
 // -------------------------
 
 p {
-  font-size: 1.625rem;
+
+  @media #{$large} {
+    font-size: 1.625rem;
+  }
 }
 
 
@@ -59,11 +65,11 @@ p {
 // -------------------------
 
 a {
+  color: currentColor;
   font-weight: bold;
-  color: $interactive-fg-color;
-  text-decoration: none;
+  text-decoration: underline;
 
   &:hover, &:focus {
-    text-decoration: underline;
+    text-decoration: none;
   }
 }

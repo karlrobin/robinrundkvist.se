@@ -16,7 +16,7 @@ $body-bg-color:             $white;
 $fg-color:                  $gray-dark;
 $muted-fg-color:            $gray;
 $strong-fg-color:           $black;
-$interactive-fg-color:      $black;
+$button-fg-color:           $black;
 
 
 // Typography
@@ -24,23 +24,36 @@ $interactive-fg-color:      $black;
 
 $font-regular:              "karmilla-web", "Helveteica Neue", Helvetica, sans-serif;
 
+$base-font-size:            1.125rem;
+$small-font-size:           1rem;
+$base-font-size-md:         1.375rem;
+$small-font-size-md:        1.25rem;
+$base-line-height:          1.425;
+$base-line-height-md:       1.5;
 
-// Vertical rythm
+
+// Spacing
 // -------------------------
 
-$space-base:                1rem;
-
-$space-xsmall:              $space-base * 1;
-$space-small:               $space-base * 1.25;
-$space-baseline:            $space-base * 1.5;
-$space-large:               $space-base * 1.75;
+$space-base:                $base-font-size * $base-line-height;
+$space-tiny:                $space-base * 0.25;
+$space-xsmall:              $space-base * 0.5;
+$space-small:               $space-base * 0.75;
+$space-large:               $space-base * 1.5;
 $space-xlarge:              $space-base * 2;
-$space-huge:                $space-base * 5;
+$space-huge:                $space-base * 4;
+
+$space-base-md:             $base-font-size-md * $base-line-height-md;
+$space-tiny-md:             $space-base-md * 0.25;
+$space-xsmall-md:           $space-base-md * 0.5;
+$space-small-md:            $space-base-md * 0.75;
+$space-large-md:            $space-base-md * 1.5;
+$space-xlarge-md:           $space-base-md * 2;
+$space-huge-md:             $space-base-md * 4;
 
 
 // Breakpoints
 // -------------------------
 
-$medium:                    "only screen and (min-width : 40rem)";
-$large:                     "only screen and (min-width : 65rem)";
-$xlarge:                    "only screen and (min-width : 75rem)";
+$medium:                    "only screen and (min-width : 48rem)";
+$large:                     "only screen and (min-width : 60rem)";

@@ -2,36 +2,57 @@
 // UTILITIES / SPACING
 //-----------------------------------------------------------------------
 
-.u-lobotomized-owl {
-  * + * {
-    margin-top: 0.75rem;
-  }
-
-  @media #{$medium} {
-    * + * {
-      margin-top: 1rem;
-    }
-  }
-
-  @media #{$large} {
-    * + * {
-      margin-top: 1.5rem;
-    }
-  }
-}
-
-.u-margin-top {
-  margin-top: 1rem !important;
-}
-
-.u-margin-top-small {
-  margin-top: 0.3rem !important;
-}
-
-.u-margin-top-medium {
-  margin-top: 1.5rem !important;
-}
+// Top margin
+// -------------------------
 
 .u-margin-top-none {
   margin-top: 0 !important;
+}
+
+// .u-margin-top-tiny {
+//   margin-top: $space-tiny !important;
+// }
+
+// .u-margin-top-xsmall {
+//   margin-top: $space-xsmall !important;
+// }
+
+.u-margin-top-small {
+  margin-top: $space-xsmall !important;
+
+  @media #{$medium} {
+    margin-top: $space-xsmall-md !important;
+  }
+}
+
+.u-margin-top-baseline {
+  margin-top: $space-base !important;
+
+  @media #{$medium} {
+    margin-top: $space-base-md !important;
+  }
+}
+
+.u-margin-top-large {
+  margin-top: $space-large !important;
+
+  @media #{$medium} {
+    margin-top: $space-large-md !important;
+  }
+}
+
+.u-margin-top-xlarge {
+  margin-top: $space-xlarge !important;
+
+  @media #{$medium} {
+    margin-top: $space-xlarge-md !important;
+  }
+}
+
+.u-margin-top-huge {
+  margin-top: $space-huge !important;
+
+  @media #{$medium} {
+    margin-top: $space-huge-md !important;
+  }
 }
