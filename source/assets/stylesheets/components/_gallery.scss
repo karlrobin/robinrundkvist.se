@@ -27,7 +27,7 @@ $padding: 5vw;
 
 .c-gallery__item {
   position: relative;
-  background-color: #e5e7eb;
+  background-color: $gray-light;
   padding: $padding * 2;
   padding-top: calc(#{$padding * 2} + #{$space-base});
   overflow: hidden;
