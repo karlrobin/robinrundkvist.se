@@ -17,11 +17,19 @@
   }
 }
 
-.u-margin-top-small {
+.u-margin-top-xsmall {
   margin-top: $space-xsmall !important;
 
   @media #{$medium} {
     margin-top: $space-xsmall-md !important;
+  }
+}
+
+.u-margin-top-small {
+  margin-top: $space-small !important;
+
+  @media #{$medium} {
+    margin-top: $space-small-md !important;
   }
 }
 
