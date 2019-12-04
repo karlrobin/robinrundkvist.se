@@ -1,6 +1,6 @@
 # robinrundkvist.se
 
-My UI design portfolio website, using Middleman for static site generation and published using Github Pages.
+My UI design portfolio website, using Middleman for static site generation. Published on Github Pages.
 
 ## Dependencies
 
@@ -37,6 +37,6 @@ BEM and namespacing together looks something like this:
 .u-utility {}
 ```
 
-Read more about these ideas from my own source of inspiration, Harry Roberts of CSS Wizardry:
+Read more about these principles from Harry Roberts of CSS Wizardry:
 - BEM syntax: https://csswizardry.com/2013/01/mindbemding-getting-your-head-round-bem-syntax/
 - Namespacing: https://csswizardry.com/2015/03/more-transparent-ui-code-with-namespaces/
