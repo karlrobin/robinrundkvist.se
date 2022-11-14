@@ -2,23 +2,23 @@
 // SETUP / FONTS
 //-----------------------------------------------------------------------
 
-// Karmilla
+// Karla
 // -------------------------
 
 @font-face {
-  font-family: 'karmilla-web';
-  src: font-url('karmilla-regular-016-webfont.woff2') format('woff2'),
-       font-url('karmilla-regular-016-webfont.woff') format('woff'),
-       font-url('karmilla-regular-016-webfont.ttf') format('truetype');
-  font-weight: normal;
+  font-family: 'Karla';
+  src: font-url('karla-light.woff2') format('woff2'),
+       font-url('karla-light.woff') format('woff'),
+       font-url('karla-light.ttf') format('truetype');
+  font-weight: 300;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'karmilla-web';
-  src: font-url('karmilla-bold-016-webfont.woff2') format('woff2'),
-       font-url('karmilla-bold-016-webfont.woff') format('woff'),
-       font-url('karmilla-bold-016-webfont.ttf') format('truetype');
-  font-weight: bold;
+  font-family: 'Karla';
+  src: font-url('karla-bold.woff2') format('woff2'),
+       font-url('karla-bold.woff') format('woff'),
+       font-url('karla-bold.ttf') format('truetype');
+  font-weight: 700;
   font-style: normal;
 }

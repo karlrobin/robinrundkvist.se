@@ -14,16 +14,21 @@
 
 html {
   box-sizing: border-box;
+  min-height: 100vh;
 }
 
 body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
   background: $body-bg-color;
 
   * + * {
-    margin-top: $space-small;
+    margin-top: $space-large;
 
     @media #{$medium} {
-      margin-top: $space-small-md;
+      margin-top: $space-large-md;
     }
   }
 }
@@ -40,12 +45,4 @@ img {
 
 ul, ol, {
   list-style: none;
-}
-
-svg {
-  g,
-  path,
-  polygon {
-    fill: inherit;
-  }
 }

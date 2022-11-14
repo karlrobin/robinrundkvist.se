@@ -1,131 +1,35 @@
 <div class="l-main" role="main">
-  <div class="c-hero">
-    <div class="l-container">
-      <h1 class="c-hero__logo">
-        <%= partial "logo" %>
-        Robin Rundkvist
-      </h1>
-      <p class="c-hero__pitch">Gränssnittsdesigner baserad i Göteborg, med fokus på komponentbaserade designsystem och tillgänglighet.</p>
-      <ul class="l-inline-list u-margin-top-large">
-        <li class="l-inline-list__item" lang="en">UI-design</li>
-        <li class="l-inline-list__item">HTML & CSS</li>
-        <li class="l-inline-list__item">Tillgänglighet</li>
-        <li class="l-inline-list__item">Webbstandarder</li>
-        <li class="l-inline-list__item" lang="en">UX-design</li>
-        <li class="l-inline-list__item" lang="en">Style guides</li>
-      </ul>
-    </div>
+  <h1 class="c-logo">
+    <picture>
+      <source srcset="/assets/images/robin-rundkvist-logo.svg"
+      media="(min-width: 48rem)">
+      <%= image_tag "robin-rundkvist-logo-small.svg", :alt => "Robin Rundkvist" %>
+    </picture>
+  </h1>
+  <p class="u-visuallyhidden">
+    Gränssnittsdesigner med tio års erfarenhet av att planera, rita och koda interaktiva grafiska gränssnitt.
+  </p>
+  <div class="c-collage" aria-hidden="true">
+    <%= image_tag "buttons/1-granssnittsdesigner.svg", :class => "c-collage__item", :alt => "" %>
+    <%= image_tag "buttons/2-med.svg", :class => "c-collage__item", :alt => "" %>
+    <%= image_tag "buttons/3-tio_ars.svg", :class => "c-collage__item", :alt => "" %>
+    <%= image_tag "buttons/4-erfarenhet.svg", :class => "c-collage__item", :alt => "" %>
+    <%= image_tag "buttons/5-av_att.svg", :class => "c-collage__item", :alt => "" %>
+    <%= image_tag "buttons/6-planera.svg", :class => "c-collage__item", :alt => "" %>
+    <%= image_tag "buttons/7-rita.svg", :class => "c-collage__item", :alt => "" %>
+    <%= image_tag "buttons/8-och_koda.svg", :class => "c-collage__item", :alt => "" %>
+    <%= image_tag "buttons/9-interaktiva.svg", :class => "c-collage__item", :alt => "" %>
+    <%= image_tag "buttons/10-grafiska.svg", :class => "c-collage__item c-collage__item--grafiska", :alt => "" %>
+    <%= image_tag "buttons/11-granssnitt.svg", :class => "c-collage__item", :alt => "" %>
   </div>
-  <div class="l-container">
-    <div class="u-text-center">
-      <p><%= svg "exclamation", class: "c-icon c-icon--small", "aria-hidden": "true" %></p>
-      <p class="u-margin-top-xsmall"><strong>Just nu tar jag emot uppdrag från och med september 2021.</strong></p>
-      <p class="u-margin-top-baseline"><a class="c-button" href="#contact" id="scroll-to-contact"><%= svg "arrow-down", class: "c-icon c-icon--inline", "aria-hidden": "true" %>Hör av dig!</a></p>
-    </div>
-    <div class="c-section">
-      <div class="c-section__figure">
-        <%= svg "designing-systems", class: "c-icon c-icon--designing-systems", "aria-hidden": "true" %>
-      </div>
-      <div class="c-section__body">
-        <h2 class="c-section__title">Jag tror på design av system, snarare än sidor.</h2>
-        <p>Det finns mycket att tjäna på att bryta ner en digital produkt eller tjänst i dess fundamentala komponenter. Även när det gäller det grafiska gränssnittet.</p>
-        <p>Du får ett designsystem som skalar väl, och som bättre går att passa in i olika skärmstorlekar och typer av enheter. Det blir också lättare att dokumentera. Utvecklare och designers får gemensamma begrepp att samarbeta kring. Tillsammans styr vi undan stickspår och ser till att varje komponent bidrar till helheten på ett meningsfullt sätt. Resultatet för slutanvändaren blir en mer konsekvent upplevelse utan spretighet eller onödiga stopp.</p>
-      </div>
-    </div>
-    <div class="c-section">
-      <div class="c-section__figure">
-        <%= svg "experience", class: "c-icon c-icon--experience", "aria-hidden": "true" %>
-      </div>
-      <div class="c-section__body">
-        <h2 class="c-section__title">Jag har nio års erfarenhet av stora och små gränssnittsprojekt.</h2>
-        <p>Från en bakgrund i interaktionsdesign och UX har jag rört mig allt mer mot gränssnittsdesign, webbstandarder och frontend.</p>
-        <p>Mellan 2012 och 2018 jobbade jag på <a href="http://www.varvet.se">Varvet</a> tillsammans med utvecklare och designers på projekt för exempelvis Bonnier Korsord, EA Games, Forsman & Bodenfors, Battleriff, Naturkartan, Oxfam, Göteborgsregionens kommunalförbund och ArkivDigital.</p>
-      </div>
-    </div>
-  </div>
-  <ul class="c-gallery">
-    <li class="c-gallery__item c-gallery__item--tall c-gallery__item--push-down">
-      <%= image_tag "gallery-lapoint@2x.png", alt: "", class: "c-gallery__image" %>
-      <div class="c-gallery__caption">
-        Lapoint (2017)
-      </div>
+  <p>Jag designar följsamma, tillgängliga och komponentbaserade gränssnitt för stora och små skärmar. Jag levererar både bilder, kod och resonemang kring jobbiga frågor. Var bor ett dialogfönster innan det behövs? Kan man fylla i formuläret med en bebis i famnen? Hur stor är en tumme?</p>
+  <p>Sedan 2022 är jag konsult hos Fujitsu i Göteborg. Hör av dig om du vill ha hjälp med något!</p>
+  <ul class="l-list u-text-nowrap u-text-small">
+    <li>
+      <p><a href="mailto:robin@robinrundkvist.se"><%= image_tag "icon-email.svg", :class => "c-icon c-icon--inline", "aria-hidden" => "true" %>robin@robinrundkvist.se</a></p>
     </li>
-    <li class="c-gallery__item c-gallery__item--wide c-gallery__item--push-right c-gallery__item--push-down">
-      <%= image_tag "gallery-arkivdigital@2x.png", alt: "", class: "c-gallery__image" %>
-      <div class="c-gallery__caption">
-        ArkivDigital (Varvet, 2014)
-      </div>
-    </li>
-    <li class="c-gallery__item c-gallery__item--tall c-gallery__item--push-right c-gallery__item--push-down">
-      <%= image_tag "gallery-rut@2x.png", alt: "", class: "c-gallery__image" %>
-      <div class="c-gallery__caption">
-        Bonnier Rut (Varvet, 2017)
-      </div>
-    </li>
-    <li class="c-gallery__item c-gallery__item--tall c-gallery__item--center">
-      <%= image_tag "gallery-via@2x.png", alt: "", class: "c-gallery__image" %>
-      <div class="c-gallery__caption">
-        Via (med Jon Petersson, 2018)
-      </div>
-    </li>
-    <li class="c-gallery__item c-gallery__item--tall c-gallery__item--center">
-      <%= image_tag "gallery-360@2x.png", alt: "", class: "c-gallery__image" %>
-      <div class="c-gallery__caption">
-        360° feedback (Varvet, 2016)
-      </div>
-    </li>
-    <li class="c-gallery__item c-gallery__item--wide c-gallery__item--push-right c-gallery__item--push-down">
-      <%= image_tag "gallery-battleriff@2x.png", alt: "", class: "c-gallery__image" %>
-      <div class="c-gallery__caption">
-        Battleriff (Varvet, 2016)
-      </div>
-    </li>
-    <li class="c-gallery__item c-gallery__item--push-right c-gallery__item--push-down">
-      <%= image_tag "gallery-pp@2x.png", alt: "", class: "c-gallery__image" %>
-      <div class="c-gallery__caption">
-        Praktikplatsen (Varvet, 2013)
-      </div>
+    <li>
+      <p><a href="https://www.linkedin.com/in/rundkvist/"><%= image_tag "icon-linkedin.svg", :class => "c-icon c-icon--inline", "aria-hidden" => "true" %>linkedin.com/in/rundkvist</a></p>
     </li>
   </ul>
-  <div class="l-container">
-    <div class="c-section">
-      <div class="c-section__figure">
-        <%= svg "concept-to-code", class: "c-icon c-icon--concept-to-code", "aria-hidden": "true" %>
-      </div>
-      <div class="c-section__body">
-        <h2 class="c-section__title">Jag rör mig från koncept till produktionsfärdig gränssnittskod.</h2>
-        <p>Jag har lika lång erfarenhet av att skriva HTML och CSS som jag har av att ta fram designkoncept. Det har alltid gått hand i hand, och jag är övertygad om att en djup förståelse för det digitala materialet är avgörande för att ta fram realistiska designkoncept som inte brakar ihop när verkligheten knackar på.</p>
-        <p>Jag är inte utvecklare, men jag är välbekant med bland annat Ruby (Ruby on Rails), Javascript (och React), PHP (och Wordpress). För det mesta har jag arbetat i agila projekt med testdriven utveckling.</p>
-      </div>
-    </div>
-    <div class="c-section">
-      <div class="c-section__figure">
-        <%= svg "accessibility", class: "c-icon c-icon--accessibility", "aria-hidden": "true" %>
-      </div>
-      <div class="c-section__body">
-        <h2 class="c-section__title">Jag tror på rätten till digitala upplevelser oavsett inre eller yttre omständigheter.</h2>
-        <p>Alla projekt blir bättre av att vi har tillgänglighet i åtanke. Samma principer som anpassar en webbplats för synskadade, hjälper även någon som går med bruten handled en månad, någon som kämpar med en dålig skärm under sommarsolen, eller kanske någon med sporadisk uppkoppling på tåget.</p>
-        <p>Digitala produkter ska fungera för människor, och olika människor har olika förutsättningar, under olika perioder av sina liv.</p>
-      </div>
-    </div>
-  </div>
-</div>
-<div class="c-footer" id="contact">
-  <div class="l-container l-container--narrow">
-    <%= svg "handshake", class: "c-icon", "aria-hidden": "true" %>
-    <h2>Vad kan jag hälpa dig med?</h2>
-    <p>Hör av dig så pratar vi mer:</p>
-    <ul class="l-list u-text-nowrap">
-      <li>
-        <p><a href="mailto:robin@robinrundkvist.se"><%= svg "email", class: "c-icon c-icon--inline", "aria-hidden": "true" %>robin@robinrundkvist.se</a></p>
-      </li>
-      <li>
-        <p><a href="https://www.linkedin.com/in/rundkvist/"><%= svg "linkedin", class: "c-icon c-icon--inline", "aria-hidden": "true" %>linkedin.com/in/rundkvist</a></p>
-      </li>
-    </ul>
-    <hr class="c-divider-dot">
-    <div role="contentinfo">
-      <p class="u-text-small">Källkoden till den här sidan finns på <a href="https://github.com/karlrobin/robinrundkvist.se" class="u-text-nowrap u-margin-left-tiny"><%= svg "github", class: "c-icon c-icon--inline", "aria-hidden": "true" %>Github</a> </p>
-    </div>
-  </div>
 </div>

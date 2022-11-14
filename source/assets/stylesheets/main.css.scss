@@ -8,7 +8,6 @@
 @import "setup/fonts";
 @import "setup/variables";
 @import "setup/mixins";
-@import "setup/keyframes";
 
 
 // Base
@@ -24,19 +23,14 @@
 @import "layout/container";
 @import "layout/main";
 @import "layout/list";
-@import "layout/inline-list";
 
 
 // Components
 // -------------------------
 
-@import "components/button";
+@import "components/collage";
 @import "components/icon";
-@import "components/divider-dot";
-@import "components/section";
-@import "components/gallery";
-@import "components/hero";
-@import "components/footer";
+@import "components/logo";
 
 
 // Utilities
@@ -44,3 +38,4 @@
 
 @import "utilities/type";
 @import "utilities/spacing";
+@import "utilities/accessibility";

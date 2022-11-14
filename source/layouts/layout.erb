@@ -2,28 +2,17 @@
 <html lang="sv">
   <head>
     <meta charset="utf-8">
-    <meta name="description" content="Gränssnittsdesigner baserad i Göteborg, med fokus på komponentbaserade designsystem och tillgänglighet.">
+    <meta name="description" content="Gränssnittsdesigner med tio års erfarenhet av att planera, rita och koda interaktiva grafiska gränssnitt.">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta property="og:title" content="Robin Rundkvist – Gränssnittsdesigner" />
     <meta property="og:type" content="website" />
-    <meta property="og:description" content="Gränssnittsdesigner baserad i Göteborg, med fokus på komponentbaserade designsystem och tillgänglighet." />
+    <meta property="og:description" content="Gränssnittsdesigner med tio års erfarenhet av att planera, rita och koda interaktiva grafiska gränssnitt." />
     <meta property="og:image" content="http://robinrundkvist.se/assets/images/share-img.png" />
     <title>Robin Rundkvist – Gränssnittsdesigner</title>
     <%= favicon_tag 'favicon.ico' %>
-    <%= javascript_include_tag "main" %>
     <%= stylesheet_link_tag "main" %>
   </head>
   <body>
-    <%= inline_svg_sprite %>
     <%= yield %>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-121968740-1"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-
-      gtag('config', 'UA-121968740-1');
-    </script>
   </body>
 </html>

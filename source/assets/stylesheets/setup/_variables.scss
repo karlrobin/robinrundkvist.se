@@ -12,23 +12,28 @@ $gray-light:                #e5e7eb;
 $gray-dark:                 #2c3d57;
 $blue:                      #0065ff;
 
-$body-bg-color:             $white;
-$fg-color:                  $gray-dark;
+$body-bg-color:             $black;
+$fg-color:                  $white;
 $muted-fg-color:            $gray;
-$strong-fg-color:           $black;
-$button-fg-color:           $black;
+$strong-fg-color:           $white;
+$button-fg-color:           $white;
 
 
 // Typography
 // -------------------------
 
-$font-regular:              "karmilla-web", "Helveteica Neue", Helvetica, sans-serif;
+$font-regular:              "Karla", "Helvetica Neue", Helvetica, sans-serif;
 
 $base-font-size:            1.125rem;
 $small-font-size:           1rem;
-$base-font-size-md:         1.375rem;
-$small-font-size-md:        1.25rem;
-$base-line-height:          1.425;
+
+$base-font-size-md:         1.5rem;
+$small-font-size-md:        1.125rem;
+
+$base-font-weight:          300;
+$bold-font-weight:          700;
+
+$base-line-height:          1.5;
 $base-line-height-md:       1.5;
 
 

@@ -3,5 +3,10 @@
 //-----------------------------------------------------------------------
 
 .l-main {
-  margin-top: 0;
+  margin: $space-large $space-small;
+  max-width: 60rem;
+
+  @media #{$medium} {
+    margin: $space-large-md $space-small-md;
+  }
 }

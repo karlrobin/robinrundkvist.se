@@ -1,0 +1,42 @@
+//
+// COMPONENTS / COLLAGE
+//-----------------------------------------------------------------------
+
+.c-collage {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: flex-start;
+  column-gap: $space-base*0.1;
+
+  * + * {
+    margin-top: 0;
+  }
+
+  @media #{$medium} {
+    margin-left: -6px;
+    margin-right: -6px;
+    column-gap: $space-tiny;
+  }
+}
+
+.c-collage__item {
+  height: 4.1rem;
+  width: auto;
+  margin-top: -$space-tiny;
+  margin-bottom: -$space-tiny;
+
+  @media #{$medium} {
+    height: auto;
+  }
+}
+
+.c-collage__item--grafiska {
+  margin-left: -6px;
+  margin-right: -6px;
+
+  @media #{$medium} {
+    margin-left: -8px;
+    margin-right: -8px;
+  }
+}

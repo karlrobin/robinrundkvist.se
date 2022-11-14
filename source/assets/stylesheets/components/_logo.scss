@@ -1,10 +1,9 @@
 //
-// LAYOUT / LIST
+// COMPONENTS / LOGO
 //-----------------------------------------------------------------------
 
-.l-list {
-
-  > * + * {
-    margin-top: $space-tiny;
+.c-logo {
+  * + * {
+    margin-top: 0;
   }
 }
