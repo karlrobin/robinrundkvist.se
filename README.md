@@ -1,14 +1,10 @@
 # robinrundkvist.se
 
-My UI design portfolio website, using Middleman for static site generation. Published on Github Pages.
-
-## Dependencies
-
-To run the site locally you will need Middleman: https://middlemanapp.com/basics/install/
+My UI design website, built with Middleman.
 
 ## CSS conventions
 
-This project uses BEM (Block, Element, Modifier) principles for structuring and naming CSS classes. I also use namespaces to communicate class intent. Although not crucial for a one person project like this, these are strategies I find useful in most projects nowadays (and continually try to perfect).
+This project uses BEM (Block, Element, Modifier) principles for structuring and naming CSS classes. I also use namespaces to communicate class intent.
 
 The BEM naming convention follows this pattern:
 
@@ -37,6 +33,6 @@ BEM and namespacing together looks something like this:
 .u-utility {}
 ```
 
-Read more about these principles from Harry Roberts of CSS Wizardry:
+Mostly inspired by Harry Roberts, read more about these conventions here:
 - BEM syntax: https://csswizardry.com/2013/01/mindbemding-getting-your-head-round-bem-syntax/
 - Namespacing: https://csswizardry.com/2015/03/more-transparent-ui-code-with-namespaces/
