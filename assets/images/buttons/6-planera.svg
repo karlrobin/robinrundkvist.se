@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="146px" height="88px" viewBox="0 0 146 88" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>6-planera</title>
+    <g id="6-planera" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-4-Copy-7" transform="translate(6.000000, 21.000000)" fill="#69A8FF">
+            <g id="Group-20-Copy">
+                <rect id="Rectangle-4" stroke="#69A8FF" stroke-width="2" fill-opacity="0.104223279" x="1" y="1" width="132" height="44" rx="3"></rect>
+                <g id="Group-16" transform="translate(47.880000, 14.800000)" fill-rule="nonzero">
+                    <g id="Planera">
+                        <path d="M2.54,15.2 L3.38,9.28 L7.32,9.28 L8.72,8.04 L9.64,1.24 L8.58,0 L2.14,0 L0,15.2 L2.54,15.2 Z M3.72,6.82 L4.32,2.48 L6.64,2.48 L6.9,2.76 L6.34,6.52 L6,6.82 L3.72,6.82 Z" id="Shape"></path>
+                        <polygon id="Path" points="16.5 12.74 12.08 12.74 13.88 0 11.32 0 9.18 15.2 16.16 15.2"></polygon>
+                        <path d="M23.8,15.2 L26.36,15.2 L24.9,0 L22.42,0 L16.68,15.2 L19.32,15.2 L20.46,11.92 L23.58,11.92 L23.8,15.2 Z M21.32,9.46 L23.1,4.34 L23.44,9.46 L21.32,9.46 Z" id="Shape"></path>
+                        <polygon id="Path" points="30.04 15.2 31.36 5.88 33.36 15.2 36.08 15.2 38.22 0 35.68 0 34.34 9.32 32.36 0 29.64 0 27.5 15.2"></polygon>
+                        <polygon id="Path" points="45.12 15.2 45.46 12.74 40.72 12.74 41.3 8.7 44.82 8.7 45.16 6.24 41.64 6.24 42.18 2.46 46.92 2.46 47.26 0 39.98 0 37.84 15.2"></polygon>
+                        <path d="M49.14,15.2 L49.98,9.28 L51.52,9.28 L51.92,15.2 L54.38,15.2 L54,9.28 L55.42,8.04 L56.34,1.24 L55.28,0 L48.74,0 L46.6,15.2 L49.14,15.2 Z M50.32,6.82 L50.92,2.48 L53.38,2.48 L53.62,2.76 L53.06,6.52 L52.74,6.82 L50.32,6.82 Z" id="Shape"></path>
+                        <path d="M62.46,15.2 L65.02,15.2 L63.56,0 L61.08,0 L55.34,15.2 L57.98,15.2 L59.12,11.92 L62.24,11.92 L62.46,15.2 Z M59.98,9.46 L61.76,4.34 L62.1,9.46 L59.98,9.46 Z" id="Shape"></path>
+                    </g>
+                </g>
+            </g>
+            <g id="iconmonstr-log-out-3" transform="translate(14.000000, 12.000000)" fill-rule="nonzero">
+                <path d="M14,0 C19.522,0 24,4.477 24,10 C24,15.523 19.522,20 14,20 C12.213,20 10.54,19.526 9.089,18.706 L9.317,18.506 L10.712,17.285 C11.716,17.74 12.827,18 14,18 C18.411,18 22,14.411 22,10 C22,5.589 18.411,2 14,2 C12.827,2 11.716,2.26 10.712,2.716 L9.317,1.495 L9.089,1.295 C10.54,0.474 12.213,0 14,0 Z M8,3 L16,10 L8,17 L8,13 L0,13 L0,7 L8,7 L8,3 Z" id="Combined-Shape"></path>
+            </g>
+        </g>
+    </g>
+</svg>
